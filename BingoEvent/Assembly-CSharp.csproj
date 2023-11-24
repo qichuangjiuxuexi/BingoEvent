@@ -71,6 +71,7 @@
      <Compile Include="Assets/ThirdParty/UAction/Runtime/UActionData/UTweenAlphaData.cs" />
      <Compile Include="Assets/ThirdParty/UAction/Runtime/UActionController.cs" />
      <Compile Include="Assets/ThirdParty/EasyTouchBundle/EasyTouch/Plugins/Components/QuickSwipe.cs" />
+     <Compile Include="Assets/GameClient/Runtime/GameDocument/Table/LoadTest.cs" />
      <Compile Include="Assets/ThirdParty/King/Runtime/King.cs" />
      <Compile Include="Assets/ThirdParty/EasyTouchBundle/EasyTouchControls/Plugins/ETCJoystick.cs" />
      <Compile Include="Assets/ThirdParty/SimpleJson/SimpleJson.cs" />
@@ -82,10 +83,12 @@
      <Compile Include="Assets/ThirdParty/EasyTouchBundle/EasyTouchControls/Plugins/ETCInput.cs" />
      <Compile Include="Assets/ThirdParty/UAction/Runtime/UTweenColor.cs" />
      <Compile Include="Assets/ThirdParty/iTween/iTween.cs" />
+     <Compile Include="Assets/GameClient/Runtime/GameDocument/Table/TestTable.cs" />
      <Compile Include="Assets/ThirdParty/EasyTouchBundle/EasyTouch/Plugins/Components/QuickLongTap.cs" />
      <Compile Include="Assets/ThirdParty/EasyTouchBundle/EasyTouchControls/Plugins/ETCTouchPad.cs" />
      <Compile Include="Assets/ThirdParty/UAction/Runtime/UActionData/UTweenScaleData.cs" />
      <Compile Include="Assets/ThirdParty/EasyTouchBundle/EasyTouch/Plugins/Components/QuickTwist.cs" />
+     <Compile Include="Assets/GameClient/Runtime/GameDocument/DataTable.cs" />
      <Compile Include="Assets/ThirdParty/CarBase/UnityTools.cs" />
      <Compile Include="Assets/ThirdParty/EasyTouchBundle/EasyTouchControls/Plugins/ETCAxis.cs" />
      <Compile Include="Assets/ThirdParty/EasyTouchBundle/EasyTouch/Plugins/Components/QuickBase.cs" />
@@ -106,46 +109,66 @@
      <Folder Include="Assets/ThirdParty/UAction" />
      <None Include="Assets/ThirdParty/TextMesh Pro/Shaders/TMP_Bitmap.shader" />
      <Folder Include="Assets/ThirdParty/EasyTouchBundle/EasyTouch/Plugins/Gizmos" />
+     <Folder Include="Assets/ExcelDataReader" />
      <Folder Include="Assets/ThirdParty/TextMesh Pro/Resources/Fonts &amp; Materials" />
      <Folder Include="Assets/ThirdParty/EasyTouchBundle" />
+     <Folder Include="Assets/GameClient/Runtime" />
      <None Include="Assets/ThirdParty/TextMesh Pro/Shaders/TMPro_Mobile.cginc" />
      <Folder Include="Assets/ThirdParty/CarDebugSuite" />
      <None Include="Assets/ThirdParty/TextMesh Pro/Shaders/TMP_SDF SSD.shader" />
      <Folder Include="Assets/ThirdParty/EasyTouchBundle/EasyTouch/Plugins" />
      <Folder Include="Assets/ThirdParty/TextMesh Pro/Resources" />
      <Folder Include="Assets/ThirdParty/EasyTouchBundle/EasyTouchControls/Plugins" />
+     <Folder Include="Assets/ExcelDataReader/package" />
      <None Include="Assets/ThirdParty/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader" />
      <Folder Include="Assets/ThirdParty/iTween" />
      <Folder Include="Assets/ThirdParty/EasyTouchBundle/EasyTouch/Plugins/Resources" />
      <Folder Include="Assets/ThirdParty/CarDebugSuite/Runtime" />
      <Folder Include="Assets/ThirdParty/UAction/Runtime" />
+     <Folder Include="Assets/GameClient" />
      <Folder Include="Assets/ThirdParty/EasyTouchBundle/EasyTouch" />
      <None Include="Assets/ThirdParty/TextMesh Pro/Shaders/TMP_SDF-Surface.shader" />
+     <Folder Include="Assets/ExcelDataReader/package/services/metadata" />
+     <Folder Include="Assets/ExcelDataReader/package/services/metadata/core-properties" />
      <None Include="Assets/ThirdParty/TextMesh Pro/Sprites/EmojiOne Attribution.txt" />
      <None Include="Assets/ThirdParty/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader" />
+     <Folder Include="Assets/ExcelDataReader/lib/netstandard2.0" />
      <None Include="Assets/ThirdParty/TextMesh Pro/Shaders/TMP_SDF.shader" />
+     <Folder Include="Assets/ExcelDataReader/lib/net462" />
+     <None Include="Assets/ExcelDataReader/lib/net462/ExcelDataReader.xml" />
+     <Folder Include="Assets/ExcelDataReader/lib/netstandard2.1" />
      <None Include="Assets/ThirdParty/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader" />
      <None Include="Assets/ThirdParty/TextMesh Pro/Resources/LineBreaking Leading Characters.txt" />
+     <Folder Include="Assets/Resource" />
      <None Include="Assets/ThirdParty/TextMesh Pro/Shaders/TMPro_Properties.cginc" />
+     <Folder Include="Assets/GameClient/Runtime/GameDocument/Table" />
      <Folder Include="Assets/ThirdParty" />
+     <None Include="Assets/ExcelDataReader/[Content_Types].xml" />
+     <Folder Include="Assets/ExcelDataReader/_rels" />
      <None Include="Assets/ThirdParty/TextMesh Pro/Shaders/TMPro_Surface.cginc" />
      <Folder Include="Assets/Scenes" />
      <Folder Include="Assets/ThirdParty/TextMesh Pro/Resources/Style Sheets" />
      <Folder Include="Assets/ThirdParty/TextMesh Pro/Fonts" />
+     <None Include="Assets/ExcelDataReader/lib/netstandard2.0/ExcelDataReader.xml" />
      <Folder Include="Assets/ThirdParty/CarBase" />
      <None Include="Assets/ThirdParty/TextMesh Pro/Resources/LineBreaking Following Characters.txt" />
+     <Folder Include="Assets/ExcelDataReader/lib" />
      <Folder Include="Assets/ThirdParty/EasyTouchBundle/EasyTouchControls/Component" />
      <Folder Include="Assets/ThirdParty/EasyTouchBundle/EasyTouch/Plugins/Engine" />
      <Folder Include="Assets/ThirdParty/EasyTouchBundle/EasyTouchControls" />
      <Folder Include="Assets/ThirdParty/TextMesh Pro/Shaders" />
      <Folder Include="Assets/ThirdParty/CarCache" />
      <None Include="Assets/ThirdParty/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader" />
+     <None Include="Assets/ExcelDataReader/lib/netstandard2.1/ExcelDataReader.xml" />
      <Folder Include="Assets/ThirdParty/CarDebugSuite/Runtime/CarRuntimeUnitTest" />
+     <Folder Include="Assets/ExcelDataReader/package/services" />
+     <Folder Include="Assets/Resource/Document" />
      <None Include="Assets/ThirdParty/TextMesh Pro/Shaders/TMP_SDF Overlay.shader" />
      <None Include="Assets/ThirdParty/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader" />
      <Folder Include="Assets/ThirdParty/UAction/Runtime/UActionData" />
      <None Include="Assets/ThirdParty/TextMesh Pro/Fonts/LiberationSans - OFL.txt" />
      <Folder Include="Assets/ThirdParty/TextMesh Pro/Documentation" />
+     <Folder Include="Assets/GameClient/Runtime/GameDocument" />
      <None Include="Assets/ThirdParty/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader" />
      <Folder Include="Assets/ThirdParty/EasyTouchBundle/EasyTouch/Plugins/Components" />
      <Folder Include="Assets/ThirdParty/SimpleJson" />
@@ -407,6 +430,9 @@
      </Reference>
      <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
      <HintPath>/Users/qiuguoliang/Dev/BingoEvent/BingoEvent/BingoEvent/Library/PackageCache/com.unity.visualscripting@1.9.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="ExcelDataReader">
+     <HintPath>/Users/qiuguoliang/Dev/BingoEvent/BingoEvent/BingoEvent/Assets/ExcelDataReader/lib/netstandard2.0/ExcelDataReader.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Android.Types">
      <HintPath>/Applications/Unity/Hub/Editor/2022.3.12f1c1/PlaybackEngines/AndroidPlayer/Unity.Android.Types.dll</HintPath>
